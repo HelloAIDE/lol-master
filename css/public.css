@@ -25,7 +25,12 @@ li {
 .clearfix {
     zoom: 1;
 }
-
+.yes{
+    color: #22b857;
+}
+.no{
+    color: red;
+}
 /*公共部分结束*/
 /*公共头部开始*/
 .topbar {

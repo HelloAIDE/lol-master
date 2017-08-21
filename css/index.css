@@ -160,7 +160,7 @@
 }
 
 .wrapper .hot .news .news-list .news-content li:hover .news-type {
-    color: #dcdcdc;
+    color: #fff;
 }
 
 .wrapper .hot .news .news-list .news-content li:hover a {
@@ -183,6 +183,7 @@
 }
 
 .wrapper .hot .news .news-list .news-content li a .news-type {
+    color: #fff;
     position: absolute;
     left: 0;
     top: 0;
@@ -216,4 +217,186 @@
 }
 
 /*首页新闻结束*/
+/*首页直播开始*/
+.live {
+    padding-top: 20px;
+    background-color: rgba(50, 52, 58, 0.8);
+    min-height:60px;
+}
+
+.live-title {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.live-title b {
+    padding-left: 60px;
+    background: url("../images/live.png") no-repeat 0 50%;
+    color: #fff;
+    font-size: 24px;
+    float: left;
+    font-weight: 400;
+    border-bottom: 1px solid #22b857;
+    margin-left: 5px;;
+}
+
+.live-title .live-title-nav {
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.live-title .live-title-nav ul li {
+
+}
+
+.live-title .live-title-nav ul li a {
+    padding: 0 15px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+}
+
+.live-title .live-title-nav ul li a span {
+    font-size: 14px;
+    color: #fff;
+    padding: 4px 7px 4px 7px;
+    border-radius: 3px;
+}
+
+.live-title .live-title-nav ul li a.active span {
+    background: #22b857;
+}
+
+.live-title .live-title-nav ul li a:hover {
+    color: #22b857;
+}
+
+.live-title .live-title-nav ul li a.active:hover {
+    color: #fff;
+}
+
+.live-title .live-title-nav .more {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.live-title .live-title-nav .more:hover {
+    color: #22b857;
+}
+
+.live-content {
+    position: relative;
+    background-color: rgba(50, 52, 58, 0.8);
+}
+
+.live-content .live-list {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    background-color: rgba(50, 52, 58, 0.8);
+}
+
+.live-content .live-list li {
+    float: left;
+    position: relative;
+    height: 185px;
+    width: 218px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.live-content .live-list li a {
+    position: relative;
+    width:100%;
+    height:130px;
+    display: block;
+}
+
+.live-content .live-list li a img {
+    height: 130px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.live-content .live-list li a .live-mate {
+    position: absolute;
+    margin-bottom: 3px;
+    bottom: 0px;
+    width: 218px;
+    height: 20px;;
+}
+
+.live-content .live-list li a .live-mate span {
+    float: right;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.live-content .live-list li h5 a {
+    color: #dcdcdc;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.live-content .live-list li .live-info {
+    color: #999;
+    font-size: 13px;
+}
+
+.live-content .live-list li .live-info .live-anchor {
+    float: left;
+}
+
+.live-content .live-list li .live-info .live-peoples {
+    float: right;
+}
+
+.icon-anchor {
+    background: url("../images/anchor.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: -3px;
+    margin-right: 2px;
+}
+
+.icon-peoples {
+    background: url("../images/peoples.png");
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: -3px;
+    margin-right: 2px;
+}
+.icon-v{
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: -32.5px;
+    top: 15px;
+    width: 64px;
+    height: 64px;
+    background: url("../images/play.png") no-repeat 0 0;
+    cursor: pointer;
+}
+.shadow2{
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+/*首页直播结束*/
 /*首页内容结束*/
