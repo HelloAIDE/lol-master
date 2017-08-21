@@ -1,0 +1,219 @@
+/*全站首页*/
+/*首页内容开始*/
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(50, 52, 58, 0.8);
+}
+
+.hot {
+    background-color: rgba(50, 52, 58, 0.8);
+    margin-top: 10px;
+    height: 370px;
+}
+
+/*首页轮播图开始*/
+.wrapper .hot .slide_fade {
+    width: 800px;
+    height: 350px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.wrapper .slide_fade .box {
+    width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper .slide_fade .box .list {
+    display: inline-block;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.wrapper .slide_fade .box .list li {
+    display: none;
+    overflow: hidden;
+
+}
+
+.wrapper .slide_fade .box .list .active {
+    display: inline-block;
+}
+
+.wrapper .slide_fade .box .list li a img {
+    width: 800px;
+    height: 350px;
+}
+
+.wrapper .slide_fade .btn {
+    position: absolute;
+    width: 800px;
+    height: 40px;
+    z-index: 5;
+    left: 0;
+    bottom: 0;
+}
+
+.wrapper .slide_fade .btn li {
+
+}
+
+.wrapper .slide_fade .btn li a {
+    color: #dcdcdc;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    height: 40px;
+    width: 160px;
+    line-height: 40px;
+    background: url("../images/header_infobg.png");
+}
+
+.wrapper .slide_fade .btn li.select a {
+    background: #22b857;
+}
+
+/*首页轮播图结束*/
+/*首页新闻开始*/
+.wrapper .hot .news {
+    width: 350px;
+    height: 350px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.wrapper .hot .news .news-top {
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 4px solid #ebecec;
+    padding-right: 36px;
+}
+
+.wrapper .hot .news .news-top li.current {
+    border-bottom: 4px solid #22b857;
+}
+
+.wrapper .hot .news .news-top ul {
+    position: relative;
+}
+
+.wrapper .hot .news .news-top li {
+    float: left;
+    color: #dcdcdc;
+    border-bottom: #fff;
+    font-size: 17px;
+    width: 78px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrapper .hot .news .news-top a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-indent: -999em;
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+    background: url("../images/more.png");
+}
+
+.wrapper .hot .news .news-list {
+    height: 298px;
+
+}
+
+.wrapper .hot .news .news-list .news-content {
+    position: relative;
+    display: none;
+}
+
+.wrapper .hot .news .news-list .active {
+    display: block;
+}
+
+.wrapper .hot .news .news-list .news-content li {
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 0;
+}
+
+.wrapper .hot .news .news-list .news-content li.first {
+    height: 46px;
+    line-height: 46px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.wrapper .hot .news .news-list .news-content li.first a {
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #22b857;
+    padding: 0;
+}
+
+.wrapper .hot .news .news-list .news-content li:hover .news-type {
+    color: #dcdcdc;
+}
+
+.wrapper .hot .news .news-list .news-content li:hover a {
+    color: #22b857;
+}
+
+.wrapper .hot .news .news-list .news-content li:hover .date {
+    color: #22b857;
+}
+
+.wrapper .hot .news .news-list .news-content li a {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 55px;
+    color: #dcdcdc;
+}
+
+.wrapper .hot .news .news-list .news-content li a .news-type {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+    width: 46px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.wrapper .hot .news .news-list .news-content li a .news-type-news {
+    background: #22b857;
+    border: 2px solid #22b857;
+}
+
+.wrapper .hot .news .news-list .news-content li a .news-type-video {
+    background: #d63008;
+    border: 2px solid #d63008;
+}
+
+.wrapper .hot .news .news-list .news-content li a .news-type-notice {
+    background: #ffaa00;
+    border: 2px solid #ffaa00;
+}
+
+.wrapper .hot .news .news-list .news-content li a .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #a4a4a4;
+}
+
+/*首页新闻结束*/
+/*首页内容结束*/

@@ -1,0 +1,196 @@
+/*bigniu 2017年8月21日15:10:42*/
+/*公共部分开始*/
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none 0;
+    font-family: '微软雅黑';
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: url("../images/index_bg.jpg") center top no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/*公共部分结束*/
+/*公共头部开始*/
+.topbar {
+    background: #323232;
+    height: 40px;
+}
+
+.topbar-logo {
+    background: #323232;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.topbar-logo > a {
+    background: url("../images/top_lol_logo.png") no-repeat;
+    text-decoration: none;
+    height: 37px;
+    width: 109px;
+    display: block;
+    font-size: 0;
+}
+
+.header-box {
+    padding-top: 70px;
+    position: relative;
+}
+
+.nav-box {
+    width: 1200px;
+    background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#323338),
+    to(#484d5c));
+}
+
+.nav-box ul {
+    letter-spacing: -7px;
+}
+
+.nav-box ul li {
+    text-align: center;
+    width: 170px;
+    list-style: none;
+    display: inline-block;
+    background: url("../images/nav_border.png") 0 0 no-repeat;
+    border-top: 1px solid #5e6477;
+    padding: 5px 1px 0 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.nav-box ul li:hover {
+    background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#078a50),
+    to(#22b857));
+}
+
+.nav-box ul li:hover p {
+    color: #37cd6f;
+}
+
+.nav-box ul .choose {
+    background: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#078a50),
+    to(#22b857));
+    width: 174px;
+}
+
+.nav-box ul li a {
+    margin: 0 auto;
+    height: 55px;
+    line-height: 27.5px;
+    letter-spacing: normal;
+    display: inline-block;
+    font-size: 19px;
+    color: #fff;
+}
+
+.nav-box ul li a p {
+    font-size: 12px;
+    text-shadow: none;
+    color: #dcdcdc;
+}
+
+.nav-box ul .choose p {
+    color: #37cd6f;
+}
+
+.header-box .games-new {
+    margin-top: 10px;
+    background: #37cd6f;
+    height: 110px;
+    background: rgba(50, 52, 58, 0.8);
+    overflow: hidden;
+}
+
+.header-box .games-new h2 {
+    float: left;
+    width: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 15px;
+    color: #dcdcdc;
+}
+
+.header-box .games-new ul li {
+    display: inline-block;
+    float: left;
+}
+
+.header-box .games-new .free-heros {
+    float: left;
+    width: 890px;
+    display: inline-block;
+}
+
+.header-box .games-new .new-heros {
+    float: left;
+    width: 310px;
+    display: inline-block;
+}
+
+.header-box .games-new ul {
+    margin-left: 50px;
+
+}
+
+.header-box .games-new ul li {
+    width: 70px;
+    margin-right: 14px;
+}
+
+.header-box .games-new img {
+    width: 70px;
+    height: 70px;
+}
+
+.header-box .games-new a {
+    display: block;
+    text-align: center;
+}
+
+.header-box .games-new ul li a {
+    color: #dcdcdc;
+    font-size: 13px;
+}
+
+.header-box .games-new .new-heros ul li {
+    display: block;
+    font-size: 13px;
+}
+
+.header-box .games-new .hero-list {
+    padding: 10px 0;
+}
+
+.header-box .games-new .new-heros h2 {
+    margin-left: 5px;
+}
+
+/*公共头部结束*/
